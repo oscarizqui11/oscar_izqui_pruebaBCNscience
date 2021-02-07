@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Izquierdo Maquetación</title>
+
+    <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="nav-content">
+        <a class="nav-link" href="portada.html"><button class="nav-menu">Inicio</button></a>
+        <div class="drop-down">
+            <button class="nav-menu">Servicios</button>
+            <div class="drop-down-content">
+                <a href="">Submenu1</a>
+                <a href="">Submenu2</a>
+                <a href="">Submenu3</a>
+                <a href="">Submenu4</a>
+            </div>
+        </div>
+        <button class="nav-menu">Acerca de</button>
+        <a class="nav-link" href="contacto.html"><button class="nav-menu">Contacto</button></a>
+    </div>
+
+    <div id="menu-spacer-1"></div>
+
+    <div id="swiper-content">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bcn-slide-orange">BCN</div>
+                <div class="swiper-slide bcn-slide-black">science</div>
+                <div class="swiper-slide"><span class="bcn-slide-orange">BCN</span><span
+                        class="bcn-slide-black">science</span></div>
+            </div>
+
+        </div>
+
+        <!-- Add Arrows -->
+        <svg class="swiper-button-next" id="next-arrow" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 54 54" xml:space="preserve"
+            transform="scale(-1 1)">
+            <g>
+                <path d="M27,0C12.112,0,0,12.112,0,27s12.112,27,27,27s27-12.112,27-27S41.888,0,27,0z M27,52C13.215,52,2,40.785,2,27
+            S13.215,2,27,2s25,11.215,25,25S40.785,52,27,52z" fill="#e0050b" />
+                <path d="M32.413,14.293c-0.391-0.391-1.023-0.391-1.414,0L19.501,25.791c-0.667,0.667-0.667,1.751,0,2.418l11.498,11.498
+            C31.194,39.902,31.45,40,31.706,40s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L21.12,27l11.293-11.293
+            C32.804,15.316,32.804,14.684,32.413,14.293z" fill="#e0050b" />
+            </g>
+        </svg>
+        <svg class="swiper-button-prev" id="prev-arrow" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 54 54" xml:space="preserve">
+            <g>
+                <path d="M27,0C12.112,0,0,12.112,0,27s12.112,27,27,27s27-12.112,27-27S41.888,0,27,0z M27,52C13.215,52,2,40.785,2,27
+        S13.215,2,27,2s25,11.215,25,25S40.785,52,27,52z" fill="#e0050b" />
+                <path d="M32.413,14.293c-0.391-0.391-1.023-0.391-1.414,0L19.501,25.791c-0.667,0.667-0.667,1.751,0,2.418l11.498,11.498
+        C31.194,39.902,31.45,40,31.706,40s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L21.12,27l11.293-11.293
+        C32.804,15.316,32.804,14.684,32.413,14.293z" fill="#e0050b" />
+            </g>
+        </svg>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+
+    <script src="js/menu.js"></script>
+    </div>
+</body>
+
+</html>

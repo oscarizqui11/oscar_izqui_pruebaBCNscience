@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Izquierdo Maquetación</title>
+
+    <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+    <script src="js/portada.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="anims">
+        <h1 class="slogan" id="slogan-up">I need <span class="red-slogan">mega energy</span></h1>
+        <h1 class="slogan" id="slogan-right">I need <span class="red-slogan">mega concentration</span></h1>
+        <h1 class="slogan" id="slogan-left">I need <span class="red-slogan">mega health</span></h1>
+
+        <div class="spacer-anims"></div>
+
+        <h1 class="slogan" id="slogan-fade">I need <span class="red-slogan">Si</span>mega<sup class="slogan-sup">3</sup>
+        </h1>
+    </div>
+
+    <div class="footer" id="footer">
+        <p class="foot-p"><b>Most children are deficient in EPA and DHA</b>, the omega-3 essential fatty acids in fish
+            oil.</p>
+        <p class="foot-p">These vital nutrients are <b>crucial building blocks of child development</b></p>
+        <p class="foot-p">and play key roles in every aspect of health, <b>including brain and eye function.</b></p>
+
+        <svg class="go-button">
+            <defs>
+                <radialGradient id="grad1" cx="50%" cy="200%" r="450%" fx="50%" fy="50%">
+                    <stop offset="0%" style="stop-color:white;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:black;stop-opacity:1" />
+                </radialGradient>
+            </defs>
+            <a href="menu.html">
+                <path id="lineGO" d="M 120 150 l -120 -50 q 120 -200 240 0 Z" stroke-width="3" fill="url(#grad1)" />
+                <text id="go-txt" x="80" y="100" fill="red">GO</text>
+            </a>
+        </svg>
+
+        <div class="foot-logo">
+            <h1><span class="white-logo">Si</span>mega<sup class="foot-sup">3</sup></h1>
+            <p class="foot-logo-p">Omega 3 en cápsulas</p>
+        </div>
+    </div>
+</body>
+
+</html>
